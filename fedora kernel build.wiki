@@ -4,3 +4,8 @@
 4. ./scripts/fastbuild.sh [arch] [srpm]
 5. in kernel spec search "END OF PATCH DEFINITIONS" and add your own patch if you want
 6. patchwork.kernel.org - lot of kernel patches
+7. make defconfig - makes default config
+8. fedora configuration options
+    a) config-*, config-local is initially blank but it's designed for your edits
+9. Building without Fedora:
+    a) `make && make modules && make modules_install && make install`
